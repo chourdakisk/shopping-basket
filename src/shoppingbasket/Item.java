@@ -7,12 +7,12 @@ package shoppingbasket;
 public class Item {
 
     private String itemName;
-    private float price;
+    private double price;
 
     public Item() {
     }
 
-    public Item(String itemName, float price) {
+    public Item(String itemName, double price) {
         this.itemName = itemName;
         this.price = price;
     }
@@ -28,11 +28,11 @@ public class Item {
         this.itemName = itemName;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
     /*

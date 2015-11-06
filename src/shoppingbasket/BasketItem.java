@@ -7,18 +7,25 @@ package shoppingbasket;
 public class BasketItem {
 
     private Item item;
-    private int quantity;
+    //private int quantity;
 
     public BasketItem(Item item) {
         this.item = item;
-        this.quantity = 1;
     }
 
     public Item getItem() {
         return item;
     }
 
-    public int getQuantity() {
+    public String getBasketItemName() {
+        return item.getItemName();
+    }
+    
+    public double getBasketItemPrice() {
+        return item.getPrice();
+    }
+
+    /* public int getQuantity() {
         return quantity;
     }
 
@@ -32,6 +39,6 @@ public class BasketItem {
 
     public void decrementQuantity() {
         quantity--;
-    }
+    } */
 
 }
