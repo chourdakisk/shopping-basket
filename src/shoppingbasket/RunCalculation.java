@@ -41,7 +41,5 @@ public class RunCalculation {
 
         basket.getItems();
         basket.CalculateTotal();
-
     }
-
 }
